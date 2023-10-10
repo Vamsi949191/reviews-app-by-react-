@@ -1,4 +1,3 @@
-// Write your code here
 import {Component} from 'react'
 
 import './index.css'
@@ -54,6 +53,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             onClick={this.onClickLeftArrow}
+            data-testid="leftArrow"
             className="arrow-button"
           >
             <img
@@ -65,6 +65,7 @@ class ReviewsCarousel extends Component {
           <button
             type="button"
             onClick={this.onClickRightArrow}
+            data-testid="rightArrow"
             className="arrow-button"
           >
             <img
